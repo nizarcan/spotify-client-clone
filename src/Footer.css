@@ -6,3 +6,29 @@
     background-color: #282828;
     padding: 20px;
 }
+
+.footer__wrapper {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.footer__left {
+    flex: 0.3;
+}
+
+.footer__center {
+    flex: 0.4;
+    padding: 0 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.footer__right {
+    flex: 0.3;
+}
